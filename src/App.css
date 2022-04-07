@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #393e45;
+    color: #D1D5DE;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D1D5DE;
+    color: #393e45;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h1 .eth {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.wallet__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.walletLeft,
+.walletRight {
+    width: 50%;
+}
+
+input {
+    border: 0;
+    height: 2rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 2rem;
+    border: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    background-color: #D1D5DE;
+    color: #393e45;
+}
+
+.error,
+.success {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.error {
+    background: rgb(239, 61, 12);
+    color: #D1D5DE;
+}
+
+.success {
+    background-color: #53814D;
+    color: #D1D5DE;
+}
+
+.firstTitle {
+    margin-bottom: 5rem;
+    font-weight: 800;
+    font-size: 5rem;
+}
